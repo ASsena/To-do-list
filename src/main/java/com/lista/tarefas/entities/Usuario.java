@@ -2,6 +2,8 @@ package com.lista.tarefas.entities;
 
 import jakarta.persistence.*;
 
+//cria a entidade Usuario que vai servir como modelo para os usuários que forem para a tabela "tb_usuarios"
+
 @Entity
 @Table(name = "tb_usuarios")
 public class Usuario {
