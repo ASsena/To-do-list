@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
+//cria a entidade tarefa que vai servir como modelo para as tarefas que forem para a tabela "tb_tarefas"
 @Entity
 @Table(name = "tb_tarefas")
 public class Tarefa {
